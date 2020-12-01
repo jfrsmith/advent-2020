@@ -48,7 +48,7 @@ fn solve_part_2(input_str: &str, target_sum: i32) -> i32 {
 }
 
 fn main() {
-    let input_txt = include_str!("input/input.txt");
+    let input_txt = include_str!("../input/input.txt");
     println!("Part 1 -> {}", solve_part_1(input_txt, 2020));
     println!("Part 2 -> {}", solve_part_2(input_txt, 2020));
 }
