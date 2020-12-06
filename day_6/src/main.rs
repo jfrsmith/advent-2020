@@ -40,7 +40,7 @@ fn main() {
     );
 
     println!(
-        "Part 1 => {}",
+        "Part 2 => {}",
         sum_groups(include_str!("../input/input.txt"), false)
     );
 }
